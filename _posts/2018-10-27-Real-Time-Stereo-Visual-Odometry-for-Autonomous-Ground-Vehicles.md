@@ -4,7 +4,7 @@ title:      Real-Time Stereo Visual Odometry for Autonomous Ground Vehicles
 subtitle:   Paper reading
 date:       2018-10-25
 author:     hyang
-header-img: img/post-bg-2015.png
+header-img: img/post-bg-2015.jpg
 catalog: true
 tags:
     - Paper
