@@ -53,5 +53,9 @@ $$\mid\omega_a - \omega_a'\mid-\mid\omega_b - \omega'_b\mid\lt\delta$$
 #### 估计运动 $Q → \Delta_{ab}，\varepsilon$
 
 我们利用求出的最大团找出变换$\Delta_{ab}$最小化重投影误差 
-\\[\varepsilon = \displaystyle\sum_{(f_a,f_b)\in Q}(j_a - P\Delta\omega_b)^2+(j_b - P\Delta^{-1}\omega_a)^2 \\]
+
+$$
+\varepsilon = \displaystyle\sum_{(f_a,f_b)\in Q}(j_a - P\Delta\omega_b)^2+(j_b - P\Delta^{-1}\omega_a)^2
+$$
+
 这里$j$表示特征的图像坐标$\omega$表示特征的世界坐标，$P$是摄像机投影矩阵。利用列文伯格方法可以求得一个最优解。丢弃那些重投影误差较大的匹配，然后再运行一次最优化方法。
