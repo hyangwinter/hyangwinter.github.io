@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      在GitHub Pages中优雅地编辑公式
-subtitle:   Paper reading
+subtitle:   利用Mathjax解析公式
 date:       2018-11-7
 author:     hyang
 header-img: img/post-bg-2015.jpg
