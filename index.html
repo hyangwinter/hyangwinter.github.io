@@ -18,8 +18,8 @@ description: "Thinking will not overcome fear but action will."
             {{ post.content | strip_html | truncate:200 }}
         </div>
     </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    <p class="post-meta" id="busuanzi_container_site_pv" style='display:none'>
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}   Total <span id="busuanzi_value_page_pv"></span> views
     </p>
 </div>
 <hr>
